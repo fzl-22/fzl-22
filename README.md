@@ -47,6 +47,7 @@ void main(List<String> args) {
 ![](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=6aa6f8)
 ![](https://img.shields.io/badge/Tools-Git-informational?style=flat&logo=git&logoColor=white&color=6aa6f8)
 ![](https://img.shields.io/badge/Tools-Vagrant-informational?style=flat&logo=vagrant&logoColor=white&color=6aa6f8)
+![](https://img.shields.io/badge/Tools-AWS-informational?style=flat&logo=amazonaws&logoColor=white&color=6aa6f8)
 
 
 <!-- ## &#x1f4c8; GitHub Stats
