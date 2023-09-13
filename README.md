@@ -31,6 +31,7 @@ void main(List<String> args) {
 
 - LinkedIn: [https://www.linkedin.com/in/ahmadmfaisal/](https://www.linkedin.com/in/ahmadmfaisal/)
 - Hackerrank: [https://www.hackerrank.com/ahmad_faisalewy](https://www.hackerrank.com/ahmad_faisalewy)
+- Instagram: [https://www.instagram.com/fzl_22/](https://www.instagram.com/fzl_22/)
 
 
 ## 🔧 Technologies & Tools
