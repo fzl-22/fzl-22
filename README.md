@@ -2,15 +2,15 @@
 
 
 ```dart
-class FlutterDeveloper {
+class Developer {
   final String name;
   final String role;
   final List<String> languageSpoken;
 
-  const FlutterDeveloper({
-    this.name = "Ahmad Faisal",
-    this.role = "Flutter Developer",
-    this.languageSpoken = const ["id_ID", "en_US"],
+  const Developer({
+    required this.name,
+    required this.role,
+    required this.languageSpoken,
   });
 
   void sayHi() {
@@ -21,10 +21,14 @@ class FlutterDeveloper {
 }
 
 void main(List<String> args) {
-  final me = FlutterDeveloper();
+  final me = Developer(
+    name: "Ahmad Faisal",
+    role: "Flutter Developer",
+    languageSpoken: const ["id_ID", "en_US"],
+  );
+
   me.sayHi();
 }
-
 ```
 
 ## 📝 Visit Me
