@@ -2,12 +2,12 @@
 
 
 ```dart
-class Developer {
+class MobileDeveloper {
   final String name;
   final String role;
   final List<String> languageSpoken;
 
-  const Developer({
+  const MobileDeveloper({
     required this.name,
     required this.role,
     required this.languageSpoken,
@@ -21,7 +21,7 @@ class Developer {
 }
 
 void main(List<String> args) {
-  final me = Developer(
+  final me = MobileDeveloper(
     name: "Ahmad Faisal",
     role: "Flutter Developer",
     languageSpoken: const ["id_ID", "en_US"],
