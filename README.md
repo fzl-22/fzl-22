@@ -1,34 +1,37 @@
 # Hello there 👋
 
 
-```dart
+```typescript
+type SoftwareDeveloperParams = {
+  name: string;
+  role: string;
+  languageSpoken: string[];
+};
+
 class SoftwareDeveloper {
-  final String name;
-  final String role;
-  final List<String> languageSpoken;
+  name: string;
+  role: string;
+  languageSpoken: string[];
 
-  const SoftwareDeveloper({
-    required this.name,
-    required this.role,
-    required this.languageSpoken,
-  });
+  constructor(params: SoftwareDeveloperParams) {
+    this.name = params.name;
+    this.role = params.role;
+    this.languageSpoken = params.languageSpoken;
+  }
 
-  void sayHi() {
-    print("Hi! I'm ${this.name} and a ${this.role}.");
-    print("I can engage in a convo with you using both ${this.languageSpoken}, no problem!");
-    print("Hope you find something interesting here!");
+  sayHi(): void {
+    console.log("Hi! I hope you find something interesting here!");
   }
 }
 
-void main(List<String> args) {
-  final me = SoftwareDeveloper(
-    name: "Ahmad Faisal",
-    role: "Software Developer",
-    languageSpoken: const ["id_ID", "en_US"],
-  );
+const me = new SoftwareDeveloper({
+  name: "Ahmad Faisal",
+  role: "Software Developer",
+  languageSpoken: ["id_ID", "en_US"],
+});
 
-  me.sayHi();
-}
+me.sayHi();
+
 ```
 
 ## 📝 Visit Me
