@@ -2,18 +2,16 @@
 
 
 ```typescript
-type SoftwareDeveloperParams = {
-  name: string;
-  role: string;
-  languageSpoken: string[];
-};
-
 class SoftwareDeveloper {
   name: string;
   role: string;
   languageSpoken: string[];
 
-  constructor(params: SoftwareDeveloperParams) {
+  constructor(params: {
+    name: string;
+    role: string;
+    languageSpoken: string[];
+  }) {
     this.name = params.name;
     this.role = params.role;
     this.languageSpoken = params.languageSpoken;
@@ -31,7 +29,6 @@ const me = new SoftwareDeveloper({
 });
 
 me.sayHi();
-
 ```
 
 ## 📝 Visit Me
