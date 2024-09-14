@@ -63,6 +63,9 @@ me.sayHi();
 ![](https://img.shields.io/badge/Tools-Vagrant-informational?style=flat&logo=vagrant&logoColor=white&color=6aa6f8)
 ![](https://img.shields.io/badge/Tools-AWS-informational?style=flat&logo=amazon-web-services&logoColor=white&color=6aa6f8)
 
+## 💻 Most Used Languages
+
+![My most used languages](https://github-readme-stats.vercel.app/api/top-langs/?username=fzl-22&hide=Jupyter%20Notebook)
 
 <!-- ## &#x1f4c8; GitHub Stats
 
