@@ -1,34 +1,33 @@
 # Hello there 👋
 
 
-```typescript
-class SoftwareDeveloper {
-  name: string;
-  role: string;
-  languageSpoken: string[];
+```go
+package main
 
-  constructor(params: {
-    name: string;
-    role: string;
-    languageSpoken: string[];
-  }) {
-    this.name = params.name;
-    this.role = params.role;
-    this.languageSpoken = params.languageSpoken;
-  }
+import "fmt"
 
-  sayHi(): void {
-    console.log("Hi! I hope you find something interesting here!");
-  }
+type Profile struct {
+	Name           string
+	Role           string
+	LanguageSpoken []string
 }
 
-const me = new SoftwareDeveloper({
-  name: "Ahmad Faisal",
-  role: "Software Developer",
-  languageSpoken: ["id_ID", "en_US"],
-});
+func NewProfile(name string, role string, languageSpoken []string) *Profile {
+	return &Profile{
+		Name:           name,
+		Role:           role,
+		LanguageSpoken: languageSpoken,
+	}
+}
 
-me.sayHi();
+func (se *Profile) SayHi() {
+	fmt.Println("Hi! I hope you find something interesting here!")
+}
+
+func main() {
+	me := NewProfile("Ahmad Faisal", "Software Engineer", []string{"id_ID", "en_US"})
+	me.SayHi()
+}
 ```
 
 ## 📝 Visit Me
