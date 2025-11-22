@@ -1,7 +1,7 @@
 # Hello there 👋
 
 
-```go
+```golang
 package main
 
 import "fmt"
