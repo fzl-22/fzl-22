@@ -20,7 +20,7 @@ func NewProfile(name string, role string, languageSpoken []string) *Profile {
 	}
 }
 
-func (se *Profile) SayHi() {
+func (p *Profile) SayHi() {
 	fmt.Println("Hi! I hope you find something interesting here!")
 }
 
