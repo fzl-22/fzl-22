@@ -4,29 +4,67 @@
 ```golang
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 type Profile struct {
-	Name           string
-	Role           string
-	LanguageSpoken []string
+	Name         string
+	Role         string
+	Technologies []string
 }
 
 func NewProfile(name string, role string, languageSpoken []string) *Profile {
 	return &Profile{
-		Name:           name,
-		Role:           role,
-		LanguageSpoken: languageSpoken,
+		Name:         name,
+		Role:         role,
+		Technologies: languageSpoken,
 	}
 }
 
+func (p *Profile) formatLanguages() string {
+	return strings.Join(p.Technologies, ", ")
+}
+
 func (p *Profile) SayHi() {
-	fmt.Println("Hi! I hope you find something interesting here!")
+	fmt.Println("Hi! Here is a bit about me:")
+	fmt.Println()
+	fmt.Printf("  Name			:         %s\n", p.Name)
+	fmt.Printf("  Role			:         %s\n", p.Role)
+	fmt.Printf("  Technologies	: %s\n", strings.Join(p.Technologies, ", "))
+	fmt.Println()
+	fmt.Println("I hope you find something interesting here!")
 }
 
 func main() {
-	me := NewProfile("Ahmad Faisal", "Software Engineer", []string{"id_ID", "en_US"})
+	me := NewProfile("Ahmad Faisal", "Software Engineer", []string{
+		"Go",
+		"Fiber",
+		"Node.js (TypeScript and JavaScript)",
+		"Express.js",
+		"Nest.js",
+		"Swagger",
+		"Bash",
+		"PostgreSQL",
+		"MySQL",
+		"Linux",
+		"Git",
+		"Bash",
+		"Docker",
+		"AWS",
+		"Terraform",
+		"Jenkins",
+		"GitHub Actions",
+		"Firebase",
+		"Dart",
+		"Flutter",
+		"React Native",
+		"TestFlight",
+	})
 	me.SayHi()
+}
+ayHi()
 }
 ```
 
