@@ -64,8 +64,6 @@ func main() {
 	})
 	me.SayHi()
 }
-ayHi()
-}
 ```
 
 ## 📝 Visit Me
