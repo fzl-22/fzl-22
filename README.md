@@ -16,11 +16,11 @@ type Profile struct {
 	Technologies []string
 }
 
-func NewProfile(name string, role string, languageSpoken []string) *Profile {
+func NewProfile(name string, role string, technologies []string) *Profile {
 	return &Profile{
 		Name:         name,
 		Role:         role,
-		Technologies: languageSpoken,
+		Technologies: technologies,
 	}
 }
 
