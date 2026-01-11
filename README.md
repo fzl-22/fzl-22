@@ -72,10 +72,9 @@ func main() {
 - Hackerrank: [https://www.hackerrank.com/ahmad_faisalewy](https://www.hackerrank.com/ahmad_faisalewy)
 - Instagram: [https://www.instagram.com/fzl_22/](https://www.instagram.com/fzl_22/)
 
-
+<!--
 ## 🔧 Technologies & Tools
 
-<!--
 ![](https://img.shields.io/badge/OS-Arch_Linux-informational?style=flat&logo=arch-linux&logoColor=white&color=6aa6f8)
 ![](https://img.shields.io/badge/Editor-Neovim-informational?style=flat&logo=neovim&logoColor=white&color=6aa6f8)
 ![](https://img.shields.io/badge/Editor-VS_Code-informational?style=flat&logo=visual-studio-code&logoColor=white&color=6aa6f8)
@@ -101,9 +100,12 @@ func main() {
 
 -->
 
+<!--
 ## 💻 Most Used Languages
 
 ![My most used languages](https://github-readme-stats.vercel.app/api/top-langs/?username=fzl-22&hide=Jupyter%20Notebook)
+
+-->
 
 <!-- ## &#x1f4c8; GitHub Stats
 
