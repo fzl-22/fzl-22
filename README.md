@@ -67,7 +67,7 @@ func main() {
 }
 ```
 
-## 📝 Visit Me
+## Visit Me
 
 - LinkedIn: [https://www.linkedin.com/in/ahmadmfaisal/](https://www.linkedin.com/in/ahmadmfaisal/)
 - Hackerrank: [https://www.hackerrank.com/ahmad_faisalewy](https://www.hackerrank.com/ahmad_faisalewy)
