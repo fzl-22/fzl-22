@@ -75,6 +75,7 @@ func main() {
 
 ## 🔧 Technologies & Tools
 
+<!--
 ![](https://img.shields.io/badge/OS-Arch_Linux-informational?style=flat&logo=arch-linux&logoColor=white&color=6aa6f8)
 ![](https://img.shields.io/badge/Editor-Neovim-informational?style=flat&logo=neovim&logoColor=white&color=6aa6f8)
 ![](https://img.shields.io/badge/Editor-VS_Code-informational?style=flat&logo=visual-studio-code&logoColor=white&color=6aa6f8)
@@ -97,6 +98,8 @@ func main() {
 ![](https://img.shields.io/badge/Tools-Git-informational?style=flat&logo=git&logoColor=white&color=6aa6f8)
 ![](https://img.shields.io/badge/Tools-Vagrant-informational?style=flat&logo=vagrant&logoColor=white&color=6aa6f8)
 ![](https://img.shields.io/badge/Tools-AWS-informational?style=flat&logo=amazon-web-services&logoColor=white&color=6aa6f8)
+
+-->
 
 ## 💻 Most Used Languages
 
