@@ -54,6 +54,7 @@ func main() {
 		"Bash",
 		"Docker",
 		"AWS",
+		"Kubernetes",
 		"Terraform",
 		"Jenkins",
 		"GitHub Actions",
