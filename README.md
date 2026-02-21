@@ -31,8 +31,8 @@ func (p *Profile) formatLanguages() string {
 func (p *Profile) SayHi() {
 	fmt.Println("Hi! Here is a bit about me:")
 	fmt.Println()
-	fmt.Printf("  Name			:         %s\n", p.Name)
-	fmt.Printf("  Role			:         %s\n", p.Role)
+	fmt.Printf("  Name			: %s\n", p.Name)
+	fmt.Printf("  Role			: %s\n", p.Role)
 	fmt.Printf("  Technologies	: %s\n", strings.Join(p.Technologies, ", "))
 	fmt.Println()
 	fmt.Println("I hope you find something interesting here!")
